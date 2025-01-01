@@ -12,7 +12,7 @@ const io = socketIo(server, {
     methods: ["GET", "POST"]
   }
 });
-
+//socket
 io.on('connection', (socket) => {
   console.log('New client connected');
 
